@@ -1,0 +1,16 @@
+[
+  {
+    "field": "amount",
+    "op": "gt",
+    "value": 10000,
+    "severity": "medium",
+    "message": "Large transaction review"
+  },
+  {
+    "field": "mfa_enabled",
+    "op": "eq",
+    "value": false,
+    "severity": "high",
+    "message": "MFA not enabled"
+  }
+]
